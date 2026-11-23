@@ -1,0 +1,12 @@
+@"
+.venv/
+venv/
+target/
+dbt_packages/
+logs/
+.env
+profiles.yml
+raw_data_files/
+cmd.txt
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
