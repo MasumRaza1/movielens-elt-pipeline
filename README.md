@@ -12,9 +12,6 @@ quality tests, and generated documentation.
 > upload and raw-data loading into Snowflake happen before dbt models
 > are run.
 
-**Repository:**
-[movielens-elt-pipeline](https://github.com/MasumRaza1/movielens-elt-pipeline)
-
 ------------------------------------------------------------------------
 
 ## Table of Contents
@@ -54,6 +51,10 @@ The workflow follows **Extract → Load → Transform (ELT)**:
 The raw layer is retained separately from dbt's transformed models so
 that transformations can be rebuilt without changing the original
 landing data.
+
+## 🏗️ Project Architecture
+
+![MovieLens ELT Pipeline Architecture](https://github.com/MasumRaza1/movielens-elt-pipeline/blob/main/MovieLens%20ELT%20Pipeline%20Architecture.png?raw=true)
 
 ## Architecture
 
